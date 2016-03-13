@@ -17,7 +17,6 @@ public class MyNewArray <T> implements Comparable<MyNewArray>  {
 
     public MyNewArray() {
 
-        //this.array =(T[])(new Object[CAPACITY]);
         array = (T[])new Object [CAPACITY];
         this.currentPosition = 0;
     }
